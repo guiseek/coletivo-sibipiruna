@@ -1,0 +1,69 @@
+{
+  "npmScope": "guiseek",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "customer-e2e": {
+      "tags": []
+    },
+    "customer": {
+      "tags": ["app"]
+    },
+    "api": {
+      "tags": ["feature:api", "shared"]
+    },
+    "data": {
+      "tags": ["shared"]
+    },
+    "customer-api-auth": {
+      "tags": ["feature:api", "shared"]
+    },
+    "customer-lazy-auth": {
+      "tags": ["feature:lazy"]
+    },
+    "core-api-auth": {
+      "tags": ["feature:api", "shared"]
+    },
+    "core-shared-auth": {
+      "tags": ["feature:shared", "shared"]
+    },
+    "core-api-common": {
+      "tags": ["feature:api", "shared"]
+    },
+    "ui-nav": {
+      "tags": ["feature:shared", "shared"]
+    },
+    "ui-shared": {
+      "tags": ["feature:shared", "shared"]
+    },
+    "core-shared-web": {
+      "tags": ["feature:shared", "shared"]
+    },
+    "customer-lazy-account": {
+      "tags": ["feature:lazy"]
+    },
+    "customer-shared-account": {
+      "tags": ["feature:shared"]
+    },
+    "core-shared-security": {
+      "tags": ["feature:shared", "shared"]
+    },
+    "webapp-e2e": {
+      "tags": []
+    },
+    "webapp": {
+      "tags": ["app"]
+    },
+    "core-shared-fire": {
+      "tags": ["feature:shared", "shared"]
+    },
+    "ui-uploader": {
+      "tags": ["feature:shared", "shared"]
+    }
+  }
+}

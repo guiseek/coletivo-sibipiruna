@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es6",
+    "module": "commonjs",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@env/webapp/*": ["apps/webapp/src/environments/*"],
+      "@guiseek/data": ["libs/data/src/index.ts"],
+      "@guiseek/customer/api/auth": ["libs/customer/api/auth/src/index.ts"],
+      "@guiseek/customer/lazy/auth": ["libs/customer/lazy/auth/src/index.ts"],
+      "@guiseek/core/api/auth": ["libs/core/api/auth/src/index.ts"],
+      "@guiseek/core/shared/auth": ["libs/core/shared/auth/src/index.ts"],
+      "@guiseek/core/api/common": ["libs/core/api/common/src/index.ts"],
+      "@guiseek/ui/nav": ["libs/ui/nav/src/index.ts"],
+      "@guiseek/ui/shared": ["libs/ui/shared/src/index.ts"],
+      "@guiseek/core/shared/web": ["libs/core/shared/web/src/index.ts"],
+      "@guiseek/customer/lazy/account": [
+        "libs/customer/lazy/account/src/index.ts"
+      ],
+      "@guiseek/customer/shared/account": [
+        "libs/customer/shared/account/src/index.ts"
+      ],
+      "@guiseek/core/shared/security": [
+        "libs/core/shared/security/src/index.ts"
+      ],
+      "@guiseek/core/shared/fire": ["libs/core/shared/fire/src/index.ts"],
+      "@guiseek/ui/uploader": ["libs/ui/uploader/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
